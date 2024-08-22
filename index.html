@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-003</title>
-</head>
-<body>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e7a37b3213.js" crossorigin="anonymous"></script>
     
+    <!-- tailwind css & DaisyUI Links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#ABEF5F',
+                title_color: '#212121',
+                gray1_color: '#494949',
+                gray2_color: '#737373',
+                primary_light: '#ABEF5F80',
+                bg2_color: '#F4F4F4',
+              },
+              fontFamily: {
+                Manrope: 'Manrope',
+              },
+            },
+          },
+        }
+      </script>
+
+</head>
+
+<body class="font-Manrope box-border m-0 p-0">
+    <header class="bg-[linear-gradient(0.00deg,_#FFFFFF,_#ffffff00_100%)]">
+      <nav>
+        <div class="navbar px-5 pt-8">
+          <div class="navbar-start">
+            <a href="#" class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </a>
+            <a href="#" class="text-3xl leading-[40px] font-extrabold ml-2">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-normal text-base text-gray2_color">
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Home</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Services</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Portfolio</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Blogs</a></li>             
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            
+            <i class="fa-solid fa-magnifying-glass text-xl text-gray2_color w-12 h-12 sm:flex hidden rounded-full border border-[#E9E9E9] bg-white items-center justify-center mr-4"></i>
+            <i class="fa-solid fa-cart-shopping text-xl text-gray2_color  w-12 h-12 sm:flex hidden rounded-full border border-[#E9E9E9] bg-white items-center justify-center mr-4"></i>
+            
+
+            <div class="md:flex items-center justify-between gap-2 hidden bg-primary py-3 px-5 rounded-full mr-4 lg:mr-0">
+              <a href="#" class="text-[#1C1C1C] text-xl font-extrabold leading-7">Book Consult</a>
+              <a href="#" class="w-8 h-8 bg-[#1C1C1C] text-white rounded-full flex items-center justify-center">
+                <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              </a>
+            </div>
+            
+
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="lg:hidden  rounded-full border border-[#E9E9E9] bg-white w-12 h-12 items-center justify-center flex">
+                <i class="fa-solid fa-bars text-xl text-gray2_color"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-normal text-base text-gray2_color right-0">
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Home</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Services</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Portfolio</a></li>
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Blogs</a></li>             
+              <li class="hover:font-extrabold text-gray1_color transition-colors ease-in-out duration-300"><a>Contact Us</a></li>
+                
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 </body>
 </html>
