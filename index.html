@@ -44,7 +44,7 @@
     <header class="bg-[linear-gradient(0deg,_#FFFFFF,_#f4f4f4_100%)]">
       <!-- nav start here -->
       <nav>
-        <div class="navbar px-5 pt-5">
+        <div class="navbar px-5 pt-4">
           <div class="navbar-start">
             <a href="#" class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <i class="fa-solid fa-arrow-right -rotate-45"></i>
@@ -66,7 +66,7 @@
             <i class="fa-solid fa-cart-shopping text-xl text-gray2_color  w-12 h-12 sm:flex hidden rounded-full border border-[#E9E9E9] bg-white items-center justify-center mr-4"></i>
             
 
-            <div class="md:flex items-center justify-between gap-2 hidden bg-primary py-3 px-5 rounded-full mr-4 lg:mr-0">
+            <div class="md:flex items-center justify-between gap-2 hidden bg-primary w-[211.5px] py-3 px-5 rounded-full mr-4 lg:mr-0 ">
               <a href="#" class="text-[#1C1C1C] text-xl font-extrabold leading-7">Book Consult</a>
               <a href="#" class="w-8 h-8 bg-[#1C1C1C] text-white rounded-full flex items-center justify-center">
                 <i class="fa-solid fa-arrow-right -rotate-45"></i>
@@ -93,7 +93,7 @@
       </nav>
 
       <!-- banner start here -->
-      <div class="container mx-auto banner flex flex-col items-center justify-center text-center px-5 mt-6 lg:mt-7  lg:pb-24 pb-10">
+      <div class="container mx-auto banner flex flex-col items-center justify-center text-center px-5 mt-3 lg:mt-7  lg:pb-24 pb-10">
         <img class="lg:w-auto w-[261.11px] lg:mb-6 mb-4" src="./assets/banner.png" alt="">
         <div class="banner-content lg:px-10">
           <h1 class="lg:text-6xl text-3xl font-extrabold text-title_color lg:leading-[5.4375rem] leading-8 lg:mb-6 mb-4">A barn house of this design has a striking appearance</h1>
@@ -113,11 +113,15 @@
     <main>
       <!-- we design thoughtful -->
       <section class="we-design-part bg-bg2_color lg:pt-24 lg:pb-24 pt-8 pb-8">
-        <div class="container mx-auto px-5 lg:relative ">
+        <div class="container mx-auto px-5  ">
           <div class="flex lg:flex-row flex-col  lg:justify-between p-0 lg:gap-10">
             
             <!-- we design content column 1 -->
-            <div class=" lg:text-start text-center lg:w-1/2">
+            <!-- vector img part -->
+            
+            <div class=" lg:text-start text-center lg:relative lg:w-1/2">
+              <img class="lg:absolute -left-10 -top-14  lg:block hidden w-[115px]" src="./assets/Vector.png" alt="">
+
               <!-- about us btn -->
               <div class="text-center mb-4 flex justify-center lg:justify-start">
                 <div class="w-[127.96px] flex items-center justify-center gap-2 bg-white py-2 px-4 rounded-full">
@@ -171,8 +175,7 @@
 
           </div>
 
-          <!-- vector img part -->
-          <img class="lg:absolute -left-5 bottom-[559px] lg:block hidden w-[115px]" src="./assets/Vector.png" alt="">
+          
 
         </div>
       </section>
@@ -354,6 +357,39 @@
           </div>
         </div>
       </section>
+
+
+      <!-- our plan section -->
+      <section class="our-plan container mx-auto px-5 lg:py-24 lg:block hidden">
+        <div class="plan-content text-center">
+          <h2 class="font-extrabold leading-[60px] text-5xl mb-12">Our Natural <br> Barn House Plan</h2>
+        </div>
+        <!-- iframe -->
+        <div class="iframe-border ">
+          <div class="round text-center mx-auto  border-2 border-gray-300 shadow-2xl lg:w-[950px] lg:h-[444px] border-solid rounded-2xl  p-8  flex justify-center items-center ">
+            <iframe class="shadow-inner youtube-video    rounded-2xl" width="895px" height="381px" src="https://www.youtube.com/embed/Kkv2zyXojl8?si=NDADKDUWbsUYUNhC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- For Mobile  -->
+      <section class="our-plan container mx-auto px-5 md:hidden py-10">
+        <div class="plan-content text-center">
+          <h2 class="text-3xl font-extrabold leading-9 mb-8">Our Natural <br> Barn House Plan</h2>
+        </div>
+        <!-- iframe -->
+        <div class="iframe-border ">
+          <div class="round text-center border-2 border-gray-300  border-solid rounded-2xl  py-2 shadow-2xl flex justify-center items-center ">
+            <iframe class=" youtube-video shadow-2xl  rounded-2xl" width="315px" height="217px" src="https://www.youtube.com/embed/Kkv2zyXojl8?si=NDADKDUWbsUYUNhC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
     </main>
 
     <footer class="bg-[#1C1C1C] py-16 px-8 lg:py-24">
